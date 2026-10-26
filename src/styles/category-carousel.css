@@ -1,0 +1,30 @@
+.category-carousel { position: relative; }
+.category-controls {
+  position: absolute;
+  top: 50%;
+  left: max(24px, calc((100% - 1088px) / 2));
+  right: max(24px, calc((100% - 1088px) / 2));
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 160ms ease;
+  z-index: 5;
+}
+.category-chevron {
+  display: grid; place-items: center;
+  width: 40px; height: 40px; padding: 10px;
+  border-radius: 1000px;
+  color: var(--bg); background: var(--fg);
+  box-shadow: 0 1px 1px rgba(0, 0, 0, .04);
+  pointer-events: none;
+}
+.category-chevron img { width: 20px; height: 20px; }
+.category-carousel:hover .category-controls,
+.category-carousel:focus-within .category-controls { opacity: 1; }
+.category-carousel:hover .category-chevron,
+.category-carousel:focus-within .category-chevron { pointer-events: auto; }
+.category-chevron:disabled { cursor: default; opacity: .35; }
+.dark .category-chevron img { filter: brightness(0); }
+@media (max-width: 760px) { .category-controls { left: 32px; right: 32px; } }

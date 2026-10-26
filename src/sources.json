@@ -5,7 +5,8 @@
     "styles/figma-system.css",
     "styles/figma-responsive.css",
     "styles/footer.css",
-    "styles/mobile-fixes.css"
+    "styles/mobile-fixes.css",
+    "styles/category-carousel.css"
   ],
   "scripts": [
     "core/state.js",

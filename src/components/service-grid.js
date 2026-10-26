@@ -1,0 +1,1 @@
+function serviceGrid(){return `<div class="services-grid">${services.map((s,i)=>`<button class="service-card" data-service="${i}"><span class="number"><span>0${i+1}</span><span>↗</span></span><h3>${T(s[0],s[1])}</h3><p>${T(s[2],s[3])}</p></button>`).join('')}</div>`}

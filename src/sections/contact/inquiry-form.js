@@ -1,0 +1,3 @@
+function contactFormSection() {
+  return `<form id="contact-form"><div class="form-grid"><label>${T('Your name','Tên của bạn')}<input name="name" required maxlength="100" autocomplete="name"></label><label>${T('Your email','Email của bạn')}<input type="email" name="email" required autocomplete="email"></label><textarea name="message" required maxlength="3000" placeholder="${T('Your message','Nội dung tin nhắn')}" aria-label="${T('Your message','Nội dung tin nhắn')}"></textarea></div><button class="btn" type="submit">${T('Open email draft ↗','Mở bản nháp email ↗')}</button><p class="tiny">${T('Opens your email app with a draft. Nothing is sent automatically.','Mở ứng dụng email với bản nháp. Không tự động gửi nội dung.')}</p></form>`;
+}

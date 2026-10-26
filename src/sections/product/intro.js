@@ -1,0 +1,3 @@
+function productIntroSection() {
+  return `<section class="page-head wrap"><div class="eyebrow">ANGLE / PRODUCT</div><h1>${T('Meet your new<br>creative companion.','Làm quen với người bạn<br>sáng tạo mới.')}</h1><p class="body">${T('A camera experience built around context. Explore how a little guidance can change your perspective.','Trải nghiệm camera bắt đầu từ bối cảnh. Khám phá cách một chút hướng dẫn có thể thay đổi góc nhìn.')}</p><div class="subnav"><a href="#/product" class="active">AI Cameraman Agent</a><a href="#services">${T('Other services','Các hướng dịch vụ')}</a><a href="#/pricing">${T('Pricing','Các gói')}</a></div></section>`;
+}

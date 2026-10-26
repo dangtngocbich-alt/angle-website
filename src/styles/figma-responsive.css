@@ -1,0 +1,55 @@
+@media(min-width:1500px){.rail{padding:0}
+.scene-card,.scene-card:first-child{flex-basis:380px}
+}
+
+@media(max-width:1100px){.header .wrap{height:112px;padding-top:36px;padding-bottom:36px}
+.wrap{padding-left:48px;padding-right:48px}
+.hero{padding-top:48px}
+.hero-title h1{font-size:52px;line-height:60px;letter-spacing:-2.8px}
+.nav-controls{gap:8px}
+.pill{flex-shrink:0}
+.demo-grid{gap:32px}
+.demo-panel{padding:24px}
+.split{gap:40px}
+}
+
+@media(max-width:760px){.header .wrap{height:88px;padding:24px}
+.logo,.logo img{width:118.4px;height:32px}
+.nav-controls{gap:8px}
+.seg{width:66px;height:36px;min-height:36px}
+.seg button{width:28px;height:28px;font-size:12px}
+.seg button img{width:16px;height:16px}
+.header .get-app{display:none}
+.wrap{padding:0 24px}
+.hero{padding-top:40px;padding-bottom:40px}
+.hero-title{margin-bottom:32px}
+.hero-title h1,h1{font-size:40px;line-height:46px;letter-spacing:-2px}
+.hero-title .explore{margin-top:24px}
+.scene-card,.scene-card:first-child{flex-basis:300px;width:300px;height:360px}
+.scene-card h3{font-size:28px;line-height:36px}
+.rail{gap:16px;padding:0 24px;justify-content:flex-start;scroll-snap-type:x mandatory}
+.scene-card{scroll-snap-align:center}
+.hero:after{height:60px}
+.section{padding:64px 0}
+h2{font-size:32px;line-height:40px;letter-spacing:-1.2px}
+h3{font-size:24px;line-height:32px}
+.main-nav.open{top:76px;left:16px;right:16px;height:auto;display:flex;padding:16px;gap:4px}
+.main-nav.open a{padding:12px}
+.feature-section{margin:0;padding:64px 0;border-radius:0}
+.feature-section .wrap{padding:0 24px}
+.demo-panel{padding:24px;border-radius:24px}
+.demo-grid{gap:32px}
+.services-grid{gap:16px;margin-top:32px}
+.service-card{padding:24px}
+.service-card h3{font-size:22px;line-height:28px}
+.service-card .number{margin-bottom:24px}
+.vision-panel{padding:32px}
+.vision-panel h2{font-size:32px;line-height:40px;letter-spacing:-1.2px}
+.dialog h2{font-size:32px;line-height:40px}
+.page-head{padding-top:40px}
+.footer .logo,.footer .logo img{width:148px;height:40px}
+.wordmark{font-size:24vw}
+.footer-contact{font-size:14px;line-height:22px}
+.footer-top{gap:40px}
+.body{font-size:16px;line-height:24px}
+}

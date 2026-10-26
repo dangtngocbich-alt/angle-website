@@ -1,0 +1,39 @@
+{
+  "styles": [
+    "styles/base.css",
+    "styles/responsive.css",
+    "styles/figma-system.css",
+    "styles/figma-responsive.css",
+    "styles/footer.css",
+    "styles/mobile-fixes.css"
+  ],
+  "scripts": [
+    "core/state.js",
+    "core/preferences.js",
+    "components/scene-card.js",
+    "components/service-grid.js",
+    "sections/product/camera-demo.js",
+    "sections/home/hero.js",
+    "sections/home/problem.js",
+    "sections/home/services.js",
+    "sections/home/vision.js",
+    "sections/product/intro.js",
+    "sections/product/services.js",
+    "sections/about/intro.js",
+    "sections/about/story.js",
+    "sections/pricing/context-cards.js",
+    "sections/contact/inquiry-form.js",
+    "pages/home.js",
+    "pages/product.js",
+    "pages/about.js",
+    "pages/pricing.js",
+    "pages/contact.js",
+    "core/router.js",
+    "features/camera-demo.js",
+    "features/contact-form.js",
+    "core/toast.js",
+    "features/carousel.js",
+    "features/events.js",
+    "main.js"
+  ]
+}

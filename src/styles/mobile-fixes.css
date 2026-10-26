@@ -1,0 +1,6 @@
+.rail-meta{display:none}
+.services-grid>*{min-width:0}
+@media(max-width:560px){.services-grid{grid-template-columns:minmax(0,1fr)}
+.service-card{min-height:180px}
+.service-card .number{margin-bottom:24px}
+}

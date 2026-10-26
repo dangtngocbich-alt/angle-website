@@ -1,0 +1,2 @@
+function tr(){document.documentElement.lang=lang;$$('[data-en]').forEach(e=>e.textContent=e.dataset[lang]);$$('[data-lang]').forEach(e=>e.classList.toggle('active',e.dataset.lang===lang));}
+function applyTheme(){document.body.classList.toggle('dark',theme==='dark');$$('[data-theme]').forEach(e=>e.classList.toggle('active',e.dataset.theme===theme));$('meta[name="theme-color"]').content=theme==='dark'?'#111111':'#f7f7f7';}

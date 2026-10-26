@@ -1,0 +1,13 @@
+.wordmark{width:100%;height:auto;margin:48px 0;line-height:0}
+.wordmark img{width:100%;height:auto}
+.footer h4{margin:0 0 24px;font-size:13px;line-height:20px;height:20px;font-weight:500}
+.footer-links{gap:24px}
+.footer-links a{padding:4px;min-height:28px;line-height:20px;font-weight:500}
+.footer-contact p,.footer-contact>a{line-height:25px}
+.footer-contact>a:first-child{line-height:31px}
+.footer-bottom{line-height:19px}
+.footer-bottom button{line-height:19px}
+@media(max-width:760px){.wordmark{margin:40px 0}
+.footer-contact p,.footer-contact>a{line-height:22px}
+.footer-contact>a:first-child{line-height:28px}
+}

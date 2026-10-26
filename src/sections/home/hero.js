@@ -1,0 +1,3 @@
+function heroSection() {
+  return `<section class="hero"><div class="wrap hero-title"><h1>${T('Change the way people<br>see and capture the world','Thay đổi cách con người<br>nhìn và ghi lại thế giới')}</h1><a href="#/product" class="explore">${T('Explore now','Khám phá ngay')}<span class="circle"><img src="assets/arrow.svg" width="20" height="20" alt=""></span></a></div><div class="rail" id="scene-rail">${sceneNames.map((_,i)=>sceneCard(i)).join('')}</div><div class="wrap rail-meta"><span>${T('Every moment has another angle.','Mỗi khoảnh khắc đều có một góc nhìn khác.')}</span><div class="rail-arrows"><button data-scroll="-1" aria-label="Previous scene">←</button><button data-scroll="1" aria-label="Next scene">→</button></div></div></section>`;
+}
